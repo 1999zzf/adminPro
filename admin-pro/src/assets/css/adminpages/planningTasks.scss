@@ -1,0 +1,28 @@
+.headerTop{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: auto auto;
+    div{
+        margin: 0 10px;
+    }
+    .loginA{
+        position: absolute;
+        right: 0;
+    }
+}
+.contentBody{
+    margin: auto auto;
+    padding: 0 10px;
+}
+.pageCurrent{
+    text-align: left;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+.cron {
+    text-align: left;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #EBEEF5;
+  }

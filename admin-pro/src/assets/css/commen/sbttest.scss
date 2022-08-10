@@ -1,0 +1,109 @@
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    // background: url(../../assets/image/bg.jpg) no-repeat cover;
+    background: #2C343C;
+    .body-l{
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        margin: auto auto;
+        .input_sbt{
+            width: 300px;
+            height: 30px;
+            line-height: 30px;
+            padding: 5px 10px;
+            outline: none;
+            border: 0px;
+            border-bottom: 1px solid #000;
+        }
+        .input_sbt::-webkit-input-placeholder {
+            opacity: .6;
+            color: red;
+        }
+        .getin_sbt{
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            background: red;
+            text-align: center;
+            margin: 10px auto;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+    .body-r{
+        width: 100%;
+        height: 100vh;
+        display: flex;      
+        .bodyRLeft{
+            flex: 3;
+            width: 100%;
+            height: 100vh;
+            .bodyRLeftUp{
+                width: 100%;
+                height: 50vh;
+            }
+            .bodyRLeftDown{
+                width: 100%;
+                height: 50vh;
+            }
+        }  
+        .bodyRMid{
+            flex: 7;
+            width: 100%;
+            height: 100vh;
+            .bodyMidUp{
+                width: 100%;
+                height: 60vh;
+            }
+        }
+        
+    }
+    .bodyRRight{
+        cursor: pointer;
+        position: absolute;
+        color: #0fff00;
+        right: 0;
+        left: 0;
+        text-align: center;
+        top: 1%;
+        opacity: .5;
+    }
+    .outMaskForLogin{
+        cursor: pointer;
+        position: absolute;
+        z-index: 99999;
+        right: 0;
+        bottom: 20%;
+        top: 80%;
+        color: #fff;
+        background: #a75552;
+        padding:0px 40px;
+        height: 50px;
+        line-height: 50px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        transition: all .3s;
+    }
+    .outMaskForLoginF{
+        position: absolute;
+        z-index: 99999;
+        right: 0;
+        bottom: 20%;
+        top: 80%;
+        color: #fff;
+        background: #a75552;
+        opacity: .5;
+        padding:0px 20px;
+        height: 50px;
+        line-height: 50px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        font-size: 15px;
+        transition: all .3s;
+    }
+}

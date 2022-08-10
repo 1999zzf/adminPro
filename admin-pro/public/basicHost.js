@@ -1,0 +1,6 @@
+// var host = "http://192.168.1.39:8080/sorting_web/"
+var host = "http://121.199.46.1:8096/sorting_web/"
+// var host = "http://192.168.0.31:8080/sorting_web/"
+// var host = "http://192.168.1.39:8088/express_sorting_war_exploded/"
+var Host = "http://192.168.1.107:8082/SortingPlanGp/"
+var display = "false"

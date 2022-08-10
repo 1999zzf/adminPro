@@ -1,0 +1,28 @@
+.headerTop{
+    
+    height: 100px;
+    margin-left: 10px;
+    .loginA{
+        position: absolute;
+        right: 0;
+    }
+}
+.contentBody{
+    margin: auto auto;
+    padding: 0 10px;
+}
+.pageCurrent{
+    text-align: left;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+.cron {
+    text-align: left;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.12), 0 0 6px 0 rgba(0,0,0,.04);
+  }
+  .waterfall{
+      overflow-y: auto;
+  }
